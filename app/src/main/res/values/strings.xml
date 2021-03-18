@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Boy Ride</string>
+<!--    <string name="mapbox_access_token">sk.eyJ1IjoicGVyY29iYWFuIiwiYSI6ImNraGVhaWFjczA2OXcyemx1dnl3anBmdjIifQ.1CbagvxZLB_cymAYtxHQOw</string>-->
+    <string name="mapbox_access_token">sk.eyJ1IjoiYm95MDcwNCIsImEiOiJja2tnemU4ajEwamdkMnBxdGJrcDhzbThwIn0.J-HcJq3gVAMHCn_eS11laA</string>
+
+    ////////
+    <string name="introtext1">Daftar Sekarang!</string>
+    <string name="introdesc1">Kemana kamu pergi hari ini? kami akan siap berkendara kemanapun dan kapanpun</string>
+    <string name="introtext2">Dapat dilacak</string>
+    <string name="introdesc2">Pantau lokasi paket dan driver Anda, secara real-time..</string>
+    <string name="introtext3">Tenang saja</string>
+    <string name="introdesc3">Anda dapat tetap bersantai saat kami mengambil dan mengantar paket Anda, semuanya dalam beberapa jam!</string>
+
+    <string name="exit">Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="yes">YES!</string>
+    <string name="no">NO</string>
+
+    <string name="email">Email</string>
+        <string name="verifydesc">Kami mengirimkan kode verifikasi ke nomor tersebut</string>
+    <string name="norecieve">Saya tidak menerima kodenya!</string>
+    <string name="resend">Kirim Ulang Kode</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="privacy">By signing in, you agree to the  <![CDATA[<b><font color=#108A15>terms and conditions</font></b>]]></string>
+    <string name="text_with_bullet">\u2022</string>
+    <string name="lupa">Lupa Password?</string>
+    <string name="button_signIn">Login</string>
+    <string name="button_signUp"> Register</string>
+    <string name="button_dontHaveAccount">Tidak punya akun? </string>
+    <string name="wrongnumber">Format nomor telepon salah </string>
+    <string name="phoneemailwrong">telepon atau kata sandi salah</string>
+    <string name="phonepass">No Telp dan Kata Sandi tidak boleh kosong!</string>
+    <string name="phoneempty">No telp tidak boleh kosong!</string>
+    <string name="passempty">Password tidak boleh kosong!</string>
+    <string name="emailempty">Email tidak boleh kosong!</string>
+
+    <string name="hint_name">Nama</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">No Telp</string>
+    <string name="hint_birthday">Tanggal Lahir</string>
+    <string name="hint_password">Password</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_chat">Pesan</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_favourite">Favorit</string>
+    <string name="menu_profile">Profil</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="getstarted">Mulai</string>
+
+    <string name="ride_location">Location</string>
+    <string name="ride_destination">Tujuan</string>
+
+    <string name="ride_note">Notes</string>
+
+    <string name="ride_setPickUp">Pilih penjemputan</string>
+    <string name="ride_setDestination">Pilih tujuan</string>
+    <string name="text_order">Order</string>
+    <string name="waiting_desc">Kami sedang mencari pengemudi terdekat</string>
+    <string name="waiting_pleaseWait">silahhkan tunggu....</string>
+    <string name="text_noInternet">No internet Access</string>
+
+    <string name="notification_cancel">Order telah dibatalkan</string>
+    <string name="notification_start">ke lokasi tujuan</string>
+    <string name="notification_accept">Anda menemukan seorang driver</string>
+    <string name="notification_finish">terima kasih telah menggunakan layanan kami</string>
+    <string name="topup">Isi saldo</string>
+    <string name="withdraw">Tarik saldo</string>
+    <string name="promo">promo</string>
+    <string name="detail">Detail</string>
+
+</resources>
