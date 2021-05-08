@@ -1,50 +1,49 @@
 {
   "project_info": {
-    "project_number": "106057806934",
-    "firebase_url": "https://boy-ride-v2-default-rtdb.firebaseio.com",
-    "project_id": "boy-ride-v2",
-    "storage_bucket": "boy-ride-v2.appspot.com"
+    "project_number": "605869084639",
+    "project_id": "bekurir2",
+    "storage_bucket": "bekurir2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:106057806934:android:763ab37e6eb4c92d3577f7",
+        "mobilesdk_app_id": "1:605869084639:android:90eb98753f1389b3a4fe6a",
         "android_client_info": {
-          "package_name": "com.boyride.pelanggan"
+          "package_name": "com.bekurir.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "106057806934-f1qa4v2vepj5vf5trnfv5dld26r68jja.apps.googleusercontent.com",
+          "client_id": "605869084639-ttt58pt39mmh43uabs8s6th817o7vr8v.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.boyride.pelanggan",
-            "certificate_hash": "f1248aebe6b495f8d5927e350a78c5a231b4accb"
-          }
-        },
-        {
-          "client_id": "106057806934-orvtfuo9bvi3cumac7vpq2ju42t4p0pa.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.boyride.pelanggan",
+            "package_name": "com.bekurir.app",
             "certificate_hash": "1cc568be741655eed476101b2390940234f64757"
           }
         },
         {
-          "client_id": "106057806934-jociteaql4g16cu36pjp3qmlajpv79q2.apps.googleusercontent.com",
+          "client_id": "605869084639-u58k3psn29fraou86i8jc0fnfh14bpo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bekurir.app",
+            "certificate_hash": "6e83dd852a370b4d49849e337a38ce5ab15b76d0"
+          }
+        },
+        {
+          "client_id": "605869084639-hqmhapimt3a3reum96opp3jljqqfrgvi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD0XQbBXOy1rqBg0Ia8yx0ZHs3Oi02FXbA"
+          "current_key": "AIzaSyDIPVcu21T8c8p6y-rlhYH6B1QiqHLsfdY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "106057806934-jociteaql4g16cu36pjp3qmlajpv79q2.apps.googleusercontent.com",
+              "client_id": "605869084639-hqmhapimt3a3reum96opp3jljqqfrgvi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -53,43 +52,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:106057806934:android:0d013718dadca2593577f7",
+        "mobilesdk_app_id": "1:605869084639:android:3ea7f0291420de8da4fe6a",
         "android_client_info": {
-          "package_name": "com.boyride.pengemudi"
+          "package_name": "com.bekurir.biz"
         }
       },
       "oauth_client": [
         {
-          "client_id": "106057806934-d64al61k1imsiod9m2l19ik5kvjtre7v.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.boyride.pengemudi",
-            "certificate_hash": "1cc568be741655eed476101b2390940234f64757"
-          }
-        },
-        {
-          "client_id": "106057806934-erpmt3ir32u4t6kmo616jtbtaggejmqs.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.boyride.pengemudi",
-            "certificate_hash": "5b41320c6a64ab6c44071792944024966080ff63"
-          }
-        },
-        {
-          "client_id": "106057806934-jociteaql4g16cu36pjp3qmlajpv79q2.apps.googleusercontent.com",
+          "client_id": "605869084639-hqmhapimt3a3reum96opp3jljqqfrgvi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD0XQbBXOy1rqBg0Ia8yx0ZHs3Oi02FXbA"
+          "current_key": "AIzaSyDIPVcu21T8c8p6y-rlhYH6B1QiqHLsfdY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "106057806934-jociteaql4g16cu36pjp3qmlajpv79q2.apps.googleusercontent.com",
+              "client_id": "605869084639-hqmhapimt3a3reum96opp3jljqqfrgvi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -98,27 +81,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:106057806934:android:3806e9767f4b227c3577f7",
+        "mobilesdk_app_id": "1:605869084639:android:8a6586911e3f3a8da4fe6a",
         "android_client_info": {
-          "package_name": "com.boyride.warungapp"
+          "package_name": "com.bekurir.driverapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "106057806934-jociteaql4g16cu36pjp3qmlajpv79q2.apps.googleusercontent.com",
+          "client_id": "605869084639-hqmhapimt3a3reum96opp3jljqqfrgvi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD0XQbBXOy1rqBg0Ia8yx0ZHs3Oi02FXbA"
+          "current_key": "AIzaSyDIPVcu21T8c8p6y-rlhYH6B1QiqHLsfdY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "106057806934-jociteaql4g16cu36pjp3qmlajpv79q2.apps.googleusercontent.com",
+              "client_id": "605869084639-hqmhapimt3a3reum96opp3jljqqfrgvi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

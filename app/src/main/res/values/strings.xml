@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Boy Ride</string>
+    <string name="app_name">Bekurir Aja</string>
 <!--    <string name="mapbox_access_token">sk.eyJ1IjoicGVyY29iYWFuIiwiYSI6ImNraGVhaWFjczA2OXcyemx1dnl3anBmdjIifQ.1CbagvxZLB_cymAYtxHQOw</string>-->
     <string name="mapbox_access_token">sk.eyJ1IjoiYm95MDcwNCIsImEiOiJja2tnemU4ajEwamdkMnBxdGJrcDhzbThwIn0.J-HcJq3gVAMHCn_eS11laA</string>
 
@@ -20,7 +20,7 @@
     <string name="norecieve">Saya tidak menerima kodenya!</string>
     <string name="resend">Kirim Ulang Kode</string>
     <string name="confirm">Konfirmasi</string>
-    <string name="privacy">By signing in, you agree to the  <![CDATA[<b><font color=#108A15>terms and conditions</font></b>]]></string>
+    <string name="privacy">Dengan login, kamu setuju dengan  <![CDATA[<b><font color=#108A15>Syarat dan Ketentuan</font></b>]]></string>
     <string name="text_with_bullet">\u2022</string>
     <string name="lupa">Lupa Password?</string>
     <string name="button_signIn">Login</string>
@@ -47,7 +47,7 @@
     <string name="text_cancel">Cancel</string>
     <string name="getstarted">Mulai</string>
 
-    <string name="ride_location">Location</string>
+    <string name="ride_location">Jemput</string>
     <string name="ride_destination">Tujuan</string>
 
     <string name="ride_note">Notes</string>

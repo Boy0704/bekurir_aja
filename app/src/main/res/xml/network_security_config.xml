@@ -7,6 +7,6 @@
                 <certificates src="user" />
             </trust-anchors>
         </debug-overrides>
-        <domain includeSubdomains="true">http://demo.ayogolive.com/boyride_v2/</domain>
+        <domain includeSubdomains="true">demo.ayogolive.com</domain>
     </domain-config>
 </network-security-config>

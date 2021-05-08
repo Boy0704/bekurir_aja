@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.boyride.pelanggan"
+    package="com.bekurir.app"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -18,7 +18,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
-        android:name="com.boyride.pelanggan.constants.BaseApp"
+        android:name="com.bekurir.app.constants.BaseApp"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -30,70 +30,70 @@
         android:theme="@style/AppTheme"
         tools:replace="android:supportsRtl,android:allowBackup, android:usesCleartextTraffic">
 
-        <activity android:name="com.boyride.pelanggan.activity.PromoActivity"
+        <activity android:name="com.bekurir.app.activity.PromoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
 
-        <activity android:name="com.boyride.pelanggan.activity.DetailOrderActivity"
+        <activity android:name="com.bekurir.app.activity.DetailOrderActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.MapsMerchantActivity"
+            android:name="com.bekurir.app.activity.MapsMerchantActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.DetailMerchantActivity"
+            android:name="com.bekurir.app.activity.DetailMerchantActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.PicklocationActivity"
+            android:name="com.bekurir.app.activity.PicklocationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.AllMerchantActivity"
+            android:name="com.bekurir.app.activity.AllMerchantActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.AllNewsActivity"
+            android:name="com.bekurir.app.activity.AllNewsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.WalletActivity"
+            android:name="com.bekurir.app.activity.WalletActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.ChatActivity"
+            android:name="com.bekurir.app.activity.ChatActivity"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.boyride.pelanggan.utils.api.service.MessagingService">
+        <service android:name="com.bekurir.app.utils.api.service.MessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name="com.boyride.pelanggan.activity.RateActivity"
+            android:name="com.bekurir.app.activity.RateActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.CreditcardActivity"
+            android:name="com.bekurir.app.activity.CreditcardActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
 
         <activity
-            android:name="com.boyride.pelanggan.activity.StripePaymentActivity"
+            android:name="com.bekurir.app.activity.StripePaymentActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.WithdrawActivity"
+            android:name="com.bekurir.app.activity.WithdrawActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.SplashActivity"
+            android:name="com.bekurir.app.activity.SplashActivity"
             android:noHistory="true"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -103,66 +103,66 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.boyride.pelanggan.activity.IntroActivity"
+            android:name="com.bekurir.app.activity.IntroActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.NewsDetailActivity"
+            android:name="com.bekurir.app.activity.NewsDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.TopupSaldoActivity"
+            android:name="com.bekurir.app.activity.TopupSaldoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.RideCarActivity"
+            android:name="com.bekurir.app.activity.RideCarActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.RentCarActivity"
+            android:name="com.bekurir.app.activity.RentCarActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.SendActivity"
+            android:name="com.bekurir.app.activity.SendActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.SendDetailActivity"
+            android:name="com.bekurir.app.activity.SendDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.ProgressActivity"
+            android:name="com.bekurir.app.activity.ProgressActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.boyride.pelanggan.activity.PrivacyActivity"
+            android:name="com.bekurir.app.activity.PrivacyActivity"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.boyride.pelanggan.activity.RegisterActivity"
+            android:name="com.bekurir.app.activity.RegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.boyride.pelanggan.activity.EditProfileActivity"
+            android:name="com.bekurir.app.activity.EditProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/noActionBar" />
         <activity
-            android:name="com.boyride.pelanggan.activity.LoginActivity"
+            android:name="com.bekurir.app.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.ForgotPassActivity"
+            android:name="com.bekurir.app.activity.ForgotPassActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.ChangepassActivity"
+            android:name="com.bekurir.app.activity.ChangepassActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
         <activity
-            android:name="com.boyride.pelanggan.activity.MainActivity"
+            android:name="com.bekurir.app.activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Login_phone" />
 
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.boyride.pelanggan.fileprovider"
+            android:authorities="com.bekurir.app.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
