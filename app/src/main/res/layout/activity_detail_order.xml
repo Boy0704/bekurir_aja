@@ -12,7 +12,7 @@
         android:layout_height="55dp"
         android:layout_alignParentTop="true"
         android:layout_weight="1"
-        android:background="@color/white"
+        android:background="@color/black"
         app:contentInsetLeft="0dp"
         app:contentInsetStart="0dp">
 
@@ -147,10 +147,10 @@
                 <customfonts.TextViewSFProDisplayRegular
                     android:id="@+id/priceorder"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="32dp"
                     android:layout_weight="1"
                     android:gravity="left"
-                    android:text="Order Price"
+                    android:text="Harga"
                     android:textSize="15dp" />
 
                 <customfonts.TextViewSFProDisplayRegular
@@ -176,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="left"
-                    android:text="Delivery Fee"
+                    android:text="Ongkos Kirim"
                     android:textSize="15dp" />
 
                 <customfonts.TextViewSFProDisplayRegular
@@ -287,7 +287,7 @@
                         android:layout_width="0dp"
                         android:layout_height="40dp"
                         android:paddingLeft="10dp"
-                        android:hint="Have promo code?"
+                        android:hint="Memiliki kode promo ?"
                         android:textSize="15dp"
                         android:textColor="@color/black"
                         android:background="@color/transparent"
@@ -297,8 +297,8 @@
                         android:id="@+id/btnpromo"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
-                        android:text="Use"
-                        android:textColor="@color/white"
+                        android:text="gunakan"
+                        android:textColor="@color/black"
                         android:textAllCaps="false"
                         android:background="@drawable/btn_min"/>
 
@@ -496,7 +496,7 @@
                 android:background="@drawable/button_round_1"
                 android:text="@string/text_order"
                 android:textAllCaps="false"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:visibility="visible" />
         </LinearLayout>

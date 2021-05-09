@@ -456,7 +456,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="center"
                 android:text="1 item"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="12dp" />
 
             <View
@@ -474,7 +474,7 @@
                 android:layout_below="@+id/cost_text"
                 android:layout_alignStart="@+id/cost_text"
                 android:text="Detail Order"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="14sp" />
 
             <customfonts.TextViewSFProDisplayMedium
@@ -484,7 +484,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@+id/cost_line"
                 android:text="Rp. 23000"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="13sp" />
 
             <ImageView
@@ -494,7 +494,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:src="@drawable/ic_cart"
-                android:tint="@color/white" />
+                android:tint="@color/black" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 

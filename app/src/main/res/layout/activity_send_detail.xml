@@ -71,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
-                    android:text="Document"
+                    android:text="Dokumen"
                     android:textColor="@android:color/white"
                     android:textSize="12dp" />
 
@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
-                    android:text="Fashion"
+                    android:text="Pakaian"
                     android:textColor="@android:color/white"
                     android:textSize="12dp" />
 
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
-                    android:text="Box"
+                    android:text="Kotak"
                     android:textColor="@android:color/white"
                     android:textSize="12dp" />
 
@@ -101,7 +101,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/selector"
-                    android:text="Other"
+                    android:text="Lainnya"
                     android:textColor="@android:color/white"
                     android:textSize="12dp" />
             </LinearLayout>
@@ -112,7 +112,7 @@
                 android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:background="@drawable/round_edittext_background"
-                android:hint="What you want to send?"
+                android:hint="Apa yang ingin kamu antar?"
                 android:padding="10dp"
                 android:textColor="@color/black"
                 android:textColorHint="@color/gray"
@@ -126,7 +126,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
-                android:text="sender Detail"
+                android:text="Pengirim"
                 android:textSize="18dp" />
 
             <LinearLayout
@@ -161,7 +161,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_toRightOf="@+id/countrycode"
                     android:background="@color/transparent"
-                    android:hint="Sender Name"
+                    android:hint="Nama Pengirim"
                     android:inputType="text"
                     android:textColor="@color/black"
                     android:textColorHint="@color/gray"
@@ -216,7 +216,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
-                android:text="Receiver Detail"
+                android:text="Penerima"
                 android:textSize="18dp" />
 
             <LinearLayout
@@ -251,7 +251,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_toRightOf="@+id/countrycode"
                     android:background="@color/transparent"
-                    android:hint="Reciever Name"
+                    android:hint="Nama Penerima"
                     android:inputType="text"
                     android:textColor="@color/black"
                     android:textColorHint="@color/gray"
@@ -495,8 +495,8 @@
                             android:id="@+id/btnpromo"
                             android:layout_width="wrap_content"
                             android:layout_height="40dp"
-                            android:text="Use"
-                            android:textColor="@color/white"
+                            android:text="gunakan"
+                            android:textColor="@color/black"
                             android:textAllCaps="false"
                             android:background="@drawable/btn_min"/>
 
@@ -520,7 +520,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="15dp"
-                        android:text="Payment Method"
+                        android:text="Metode Pembayaran"
                         android:textSize="18dp" />
 
                     <LinearLayout
@@ -691,7 +691,7 @@
                     android:background="@drawable/button_round_1"
                     android:text="@string/text_order"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="18sp"
                     android:visibility="visible" />
             </LinearLayout>

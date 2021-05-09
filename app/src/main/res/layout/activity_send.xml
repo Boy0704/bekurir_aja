@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_round_1"
                 android:text="@string/ride_setDestination"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
             <View
                 android:layout_width="5dp"
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_round_1"
                 android:text="@string/ride_setPickUp"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
             <View
                 android:layout_width="5dp"
@@ -349,7 +349,7 @@
                             android:background="@drawable/button_round_1"
                             android:text="Next"
                             android:textAllCaps="false"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:textSize="18sp"
                             android:visibility="visible" />
                     </LinearLayout>

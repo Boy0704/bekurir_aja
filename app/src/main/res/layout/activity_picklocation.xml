@@ -172,7 +172,7 @@
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button_round_1"
             android:text="Add Location"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
