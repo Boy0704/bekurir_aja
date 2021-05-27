@@ -50,7 +50,7 @@ dependencies {
 
     //noinspection GradleCompatible
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
-    implementation 'com.google.firebase:firebase-database:19.3.0'
+    implementation 'com.google.firebase:firebase-database:19.7.0'
     implementation 'com.google.firebase:firebase-storage:19.1.1'
     implementation 'com.google.firebase:firebase-core:17.4.2'
     implementation 'com.google.firebase:firebase-messaging:20.2.0'
@@ -90,7 +90,7 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.11.3'
     implementation 'com.payumoney.sdkui:plug-n-play:1.6.0'
     implementation "androidx.exifinterface:exifinterface:1.2.0"
-    implementation 'com.stripe:stripe-android:+'
+    implementation 'com.stripe:stripe-android:16.0.0'
     implementation 'com.stripe:stripe-java:5.36.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:9.6.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-sdk-geojson:5.8.0-beta.2'
